@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+#homeContentPage{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contentPageHome{
+  line-height: 2.5rem;
+}
+
 .titleHome{
-  color: red;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+
+}
+
+#titleHomePage{
+  color: white;
+  font-size: 3rem;
+}
+#subTitleHomePage{
+  color: white;
+  margin-right: 0.8rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#nameHomePage{
+  color: #A020F0;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.displayNameHome{
+  display: flex;
+  align-items:center;
+}
+
+#descriptionHomePage{
+  color: white;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+#functionHomePage{
+  font-size: 3rem;
+  color: white;
 }
