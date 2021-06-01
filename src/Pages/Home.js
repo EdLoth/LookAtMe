@@ -13,10 +13,9 @@ export default function Home() {
       preserveAspectRatio: 'xMidYMid slice'
     }
   };
-
   return (
     <div id={styles.homeContentPage} className="container-fluid">
-      <div className="row">
+      <div id={styles.fadeIn} className="row">
         <div className="col-5">
           <div id={styles.contentPageHome} className="container-fluid">
             <p id={styles.titleHomePage}>Olá,</p>
@@ -48,7 +47,7 @@ export default function Home() {
           </div>
         </div>
         <div id="contentHomePageRight" className="col-7">
-          <div className="contentAnimationHomepage">
+          <div className={styles.fadeIn}>
             <Lottie
               options={defaultOptions}
               style={{marginTop:"15vh", marginLeft:"10vh"}}

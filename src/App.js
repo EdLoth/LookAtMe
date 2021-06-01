@@ -1,11 +1,11 @@
-import BottomBar from './Components/BottomBar';
+import NavBar from './Components/NavBar';
 import './Global.css';
 import Routes from './routes';
 
 function App() {
   return (
     <>
-    <BottomBar />
+    <NavBar />
     <Routes />
     </>
   );
