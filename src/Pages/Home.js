@@ -1,15 +1,24 @@
 import React from 'react';
 import styles from '../Styles/Pages/Home.module.css';
 import Typewriter from "typewriter-effect";
-
-import banner from '../assets/banner.png';
+import Lottie from 'react-lottie';
+import animationData from '../assets/animation.json';
 
 export default function Home() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+
   return (
     <div id={styles.homeContentPage} className="container-fluid">
       <div className="row">
-        <div className="col-6">
-          <div id={styles.contentPageHome} className="container">
+        <div className="col-5">
+          <div id={styles.contentPageHome} className="container-fluid">
             <p id={styles.titleHomePage}>Olá,</p>
             <div className={styles.displayNameHome}>
               <p id={styles.subTitleHomePage}>Eu sou </p>
@@ -38,8 +47,15 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="col-6">
-          <img src={banner} alt=""/>
+        <div id="contentHomePageRight" className="col-7">
+          <div className="contentAnimationHomepage">
+            <Lottie
+              options={defaultOptions}
+              style={{marginTop:"15vh", marginLeft:"10vh"}}
+              height={600}
+              width={840}
+            />
+          </div>
         </div>
       </div>
     </div>
