@@ -3,6 +3,7 @@ import styles from '../Styles/Pages/Home.module.css';
 import Typewriter from "typewriter-effect";
 import Lottie from 'react-lottie';
 import animationData from '../assets/animation.json';
+import NavBar from '../Components/NavBar';
 
 export default function Home() {
   const defaultOptions = {
@@ -14,6 +15,9 @@ export default function Home() {
     }
   };
   return (
+   <>
+    <NavBar />
+
     <div id={styles.homeContentPage} className="container-fluid">
       <div id={styles.fadeIn} className="row">
         <div className="col-5">
@@ -58,5 +62,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+   </>
   );
 }

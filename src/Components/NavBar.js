@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.jpeg';
 import '../Styles/Components/Bottombar.css';
 
@@ -16,16 +17,16 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" id="nameNav" href="#groupButtons">Home</a>
+                <NavLink to="/" className="nav-link" id="nameNav" href="#groupButtons"> Home</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" id="nameNav" href="#section2">About</a>
+                <NavLink to="/About" className="nav-link" id="nameNav" href="#section2">About</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" id="nameNav" href="#section3">Works</a>
+                <NavLink to="/Works" className="nav-link" id="nameNav" href="#section3">Works</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" id="nameNav" href="#team">Contact</a>
+                <NavLink to="/Contact" className="nav-link" id="nameNav" href="#team">Contact</NavLink>
               </li>
             </ul>
           </div>

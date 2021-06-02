@@ -28,13 +28,13 @@ height:100%;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .gris #nameNav:hover{
 color: #f5e3ff;
-font-size: 1.6rem;
-font-weight: 300;
+font-size: 1.7rem;
+font-weight: 400;
 }
 
 .gris ul li a {
