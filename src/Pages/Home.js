@@ -4,6 +4,8 @@ import Typewriter from "typewriter-effect";
 import Lottie from 'react-lottie';
 import animationData from '../assets/animation.json';
 import NavBar from '../Components/NavBar';
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
   const defaultOptions = {
@@ -49,6 +51,8 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <br/><br/><br/><br/>
+          <Link to="/About" id={styles.buttonLeanMore}>Learn More</Link>
         </div>
         <div id="contentHomePageRight" className="col-7">
           <div className={styles.fadeIn}>

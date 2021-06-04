@@ -17,7 +17,7 @@ export default function NavBar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <NavLink to="/" className="nav-link" id="nameNav" href="#groupButtons"> Home</NavLink>
+                <NavLink to="/" className="nav-link" id="nameNav"> Home</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/About" className="nav-link" id="nameNav" href="#section2">About</NavLink>

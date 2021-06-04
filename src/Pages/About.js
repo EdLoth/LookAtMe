@@ -8,10 +8,10 @@ export default function About() {
       <NavBar />
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12">
+          <div id={styles.contentPageAbout} className="col-12">
             <h1 className={styles.titleAbout}>About Page</h1>
           </div>
-          <div className="row">
+          <div id={styles.contentSection2} className="row">
             <div className="container">
               <div className="col-6"></div>
               <div className="col-6"></div>
