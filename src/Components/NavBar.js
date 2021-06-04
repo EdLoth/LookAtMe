@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <div className="NavContainer">
       <nav className="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top text-center">
-        <a class="navbar-brand" href="#"><img src={logo} alt="" width="50"/></a>
+        <NavLink class="navbar-brand" to="/"><img src={logo} alt="Vogar" width="50"/></NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
