@@ -1,3 +1,106 @@
-.titleContact{
-  color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+#contentContactPage{
+  font-family: Poppins;
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
 }
+
+.textContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#keyColor{
+  color: #c36ef8;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#contactColor{
+  font-size: 3rem;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+
+#textContactPage{
+  font-size: 1.9rem;
+  color: white;
+  text-align: justify;
+  margin: 3% 12%;
+}
+
+.socialBar{
+  margin-top: 2%;
+  width: 100%;
+  margin-left: 12%;
+  color: #c36ef8;
+  font-size: 4rem;
+}
+
+#socialOne{
+  text-decoration: none;
+  outline: none;
+  color: #c36ef8;
+}
+
+#socialOne a{
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  text-decoration: none;
+  outline: none;
+  color: #ce95f1;
+  transition: 1s;
+}
+
+#socialOne a:hover{
+    color: #A020F0;
+}
+
+#socialOne a p{
+  font-weight: 500;
+  margin-top: 2%;
+  margin-left: 1rem;
+}
+
+#iconSocial{
+  size: 3rem;
+}
+
+#socialOne p{
+  color: rgb(223, 223, 223);
+  font-size: 1.8rem;
+}
+
+
+
+
+/* Efeitos Fade IN */
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+  }
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+  #fadeIn {
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+    }

@@ -1,10 +1,10 @@
 #contentPageAbout{
-  height:100vh;
+  margin-top: 10vh;
+  height: 100vh;
   background:url(../../assets/About-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  backdrop-filter: blur(10px);
 }
 
 .titleAbout{
