@@ -21,49 +21,56 @@ export default function Home() {
     <NavBar />
 
     <div id={styles.homeContentPage} className="container-fluid">
+
       <div id={styles.fadeIn} className="row">
-        <div className="col-5">
-          <div id={styles.contentPageHome} className="container-fluid">
-            <p id={styles.titleHomePage}>Olá,</p>
-            <div className={styles.displayNameHome}>
-              <p id={styles.subTitleHomePage}>Eu sou </p>
-              <p id={styles.nameHomePage}>{"<Eduardo Ramos>"}</p>
-            </div>
-            <div className={styles.displayNameHome}>
-              <p id={styles.descriptionHomePage}>
-                Desenvolvedor
-            </p>
-              <p id={styles.functionHomePage}>
-                <Typewriter
-                  options={{
-                    autoStart: true,
-                    loop: true,
-                    delay: 50,
-                    strings: [
-                      "React JS.",
-                      "Next JS.",
-                      "React Native.",
-                      "Flutter.",
-                      "Web.",
-                    ]
-                  }}
-                />
-              </p>
+        <div id={styles.contentHomeResponsive} className="container-fluid">
+
+        <div className="col-6 d-flex align-items-center">
+            <div className={styles.fadeIn}>
+              <Lottie
+                options={defaultOptions}
+                style={{marginLeft:"5vh"}}
+                height={600}
+                width={840}
+              />
             </div>
           </div>
-          <br/><br/><br/><br/>
-          <Link to="/About" id={styles.buttonLeanMore}>Learn More</Link>
-        </div>
-        <div id="contentHomePageRight" className="col-7">
-          <div className={styles.fadeIn}>
-            <Lottie
-              options={defaultOptions}
-              style={{marginTop:"15vh", marginLeft:"10vh"}}
-              height={600}
-              width={840}
-            />
+
+          <div className="col-6">
+            <div id={styles.contentRight} className="container-fluid">
+              <p id={styles.titleHomePage}>Olá,</p>
+              <div className={styles.displayNameHome}>
+                <p id={styles.subTitleHomePage}>Eu sou </p>
+                <p id={styles.nameHomePage}>{"<Eduardo Ramos>"}</p>
+              </div>
+              <div className={styles.displayNameHome}>
+                <p id={styles.descriptionHomePage}>
+                  Desenvolvedor
+                </p>
+                <p id={styles.functionHomePage}>
+                  <Typewriter
+                    options={{
+                      autoStart: true,
+                      loop: true,
+                      delay: 50,
+                      strings: [
+                        "React JS.",
+                        "Next JS.",
+                        "React Native.",
+                        "Flutter.",
+                        "Web.",
+                      ]
+                    }}
+                  />
+                </p>
+              </div>
+              <Link to="/About" id={styles.buttonLeanMore}>Learn More</Link>
+            </div>
+            
           </div>
         </div>
+        
+
       </div>
     </div>
    </>
