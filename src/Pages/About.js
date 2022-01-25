@@ -70,29 +70,29 @@ export default function About() {
               <div className="row">
                 <div className="col-12">
                   <div className={styles.contentImgSkills}>
-                    <a href="https://pt-br.reactjs.org/" target="_blank" className={styles.itemSkill}>
-                      <img src={s4} class={styles.imgProperty} />
+                    <a href="https://pt-br.reactjs.org/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s4} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://reactnative.dev/" target="_blank" className={styles.itemSkill}>
-                      <img src={s8} class={styles.imgProperty} />
+                    <a href="https://reactnative.dev/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s8} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://nextjs.org/" target="_blank" className={styles.itemSkill}>
-                      <img src={s1} class={styles.imgProperty} />
+                    <a href="https://nextjs.org/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s1} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://www.typescriptlang.org/" target="_blank" className={styles.itemSkill}>
-                      <img src={s5} class={styles.imgProperty} />
+                    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s5} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" className={styles.itemSkill}>
-                      <img src={s6} class={styles.imgProperty} />
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s6} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://getbootstrap.com/" target="_blank" className={styles.itemSkill}>
-                      <img src={s2} class={styles.imgProperty} />
+                    <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s2} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://styled-components.com/" target="_blank" className={styles.itemSkill}>
-                      <img src={s3} class={styles.imgProperty} />
+                    <a href="https://styled-components.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s3} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" className={styles.itemSkill}>
-                      <img src={s7} class={styles.imgProperty} />
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noreferrer" className={styles.itemSkill}>
+                      <img src={s7} class={styles.imgProperty} alt="imgStack" />
                     </a>
                   </div>
                 </div>
@@ -115,26 +115,26 @@ export default function About() {
               <div className="row">
                 <div className="col-12">
                   <div className={styles.contentImgSkills}>
-                    <a href="https://www.figma.com/" target="_blank"className={styles.itemSkill}>
-                      <img src={t1} class={styles.imgProperty} />
+                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t1} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://insomnia.rest/" target="_blank"className={styles.itemSkill}>
-                      <img src={t2} class={styles.imgProperty} />
+                    <a href="https://insomnia.rest/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t2} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://expo.dev/" target="_blank"className={styles.itemSkill}>
-                      <img src={t3} class={styles.imgProperty} />
+                    <a href="https://expo.dev/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t3} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://code.visualstudio.com/" target="_blank"className={styles.itemSkill}>
-                      <img src={t4} class={styles.imgProperty} />
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t4} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://vercel.com/dashboard" target="_blank"className={styles.itemSkill}>
-                      <img src={t5} class={styles.imgProperty} />
+                    <a href="https://vercel.com/dashboard" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t5} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://github.com/" target="_blank"className={styles.itemSkill}>
-                      <img src={t6} class={styles.imgProperty} />
+                    <a href="https://github.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t6} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://git-scm.com/" target="_blank"className={styles.itemSkill}>
-                      <img src={t7} class={styles.imgProperty} />
+                    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                      <img src={t7} class={styles.imgProperty} alt="imgStack" />
                     </a>
                   </div>
                 </div>
