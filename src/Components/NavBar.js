@@ -20,13 +20,10 @@ export default function NavBar() {
                 <NavLink to="/" className="nav-link" id="nameNav"> Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/About" className="nav-link" id="nameNav" href="#section2">About</NavLink>
+                <NavLink to="/About" className="nav-link" id="nameNav" href="#section2">Sobre</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/Works" className="nav-link" id="nameNav" href="#section3">Works</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/Contact" className="nav-link" id="nameNav" href="#team">Contact</NavLink>
+                <NavLink to="/Contact" className="nav-link" id="nameNav" href="#team">Contato</NavLink>
               </li>
             </ul>
           </div>

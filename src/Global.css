@@ -4,3 +4,17 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: black;
 }
+
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: black;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 8px !important;       /* roundness of the scroll thumb */
+  border: none;  /* creates padding around scroll thumb */
+}

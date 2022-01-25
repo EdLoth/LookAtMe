@@ -64,7 +64,7 @@ export default function Home() {
                   />
                 </p>
               </div>
-              <Link to="/About" id={styles.buttonLeanMore}>Learn More</Link>
+              <Link to="/About" id={styles.buttonLeanMore}>Ver Mais</Link>
             </div>
             
           </div>
