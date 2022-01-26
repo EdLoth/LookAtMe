@@ -25,7 +25,7 @@ import t7 from '../assets/tools/t7.svg'
 
 export default function About() {
   return (
-    <>
+    <div id="fadeIn">
       <NavBar />
       <div className="container-fluid">
         <div className="row">
@@ -115,25 +115,25 @@ export default function About() {
               <div className="row">
                 <div className="col-12">
                   <div className={styles.contentImgSkills}>
-                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://www.figma.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t1} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://insomnia.rest/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://insomnia.rest/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t2} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://expo.dev/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://expo.dev/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t3} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t4} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://vercel.com/dashboard" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://vercel.com/dashboard" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t5} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://github.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://github.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t6} class={styles.imgProperty} alt="imgStack" />
                     </a>
-                    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"className={styles.itemSkill}>
+                    <a href="https://git-scm.com/" target="_blank" rel="noreferrer" className={styles.itemSkill}>
                       <img src={t7} class={styles.imgProperty} alt="imgStack" />
                     </a>
                   </div>
@@ -143,6 +143,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

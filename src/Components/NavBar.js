@@ -2,12 +2,12 @@ import React from 'react';
 
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.jpeg';
-import '../Styles/Components/Bottombar.css';
+import '../Styles/Components/Navbar.css';
 
 export default function NavBar() {
   return (
     <div className="NavContainer">
-      <nav className="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top text-center">
+      <nav className="navbar navbar-expand-lg navbar-dark gris scrolling-navbar fixed-top text-center" id="">
         <NavLink class="navbar-brand" to="/"><img src={logo} alt="Vogar" width="70"/></NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

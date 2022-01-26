@@ -33,49 +33,31 @@
   margin: 3% 12%;
 }
 
-.socialBar{
-  margin-top: 2%;
-  width: 100%;
-  margin-left: 12%;
-  color: #c36ef8;
-  font-size: 4rem;
+.contentInformations{
+  width: 80%;
+  padding-top: 1rem;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-#socialOne{
-  text-decoration: none;
-  outline: none;
-  color: #c36ef8;
+.animationPointer{
+  pointer-events: none;
 }
 
-#socialOne a{
+
+.btnSwitch{
+  border-radius: 20px;
+  width: 100px;
+  height:100px;
+  border: none;
+
+
   display: flex;
   align-items: center;
-  margin-top: 2%;
-  text-decoration: none;
-  outline: none;
-  color: #ce95f1;
-  transition: 1s;
+  justify-content: center;
 }
-
-#socialOne a:hover{
-    color: #A020F0;
-}
-
-#socialOne a p{
-  font-weight: 500;
-  margin-top: 2%;
-  margin-left: 1rem;
-}
-
-#iconSocial{
-  size: 3rem;
-}
-
-#socialOne p{
-  color: rgb(223, 223, 223);
-  font-size: 1.8rem;
-}
-
 
 
 

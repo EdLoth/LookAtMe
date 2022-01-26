@@ -1,99 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 
-#contentHomeResponsive{
-  height: 100vh;
+#contentHomeResponsive {
+  height: 85vh;
   display: flex;
   align-items: center;
 }
 
-#contentRight{
+#contentRight {
   display: block;
   align-items: center;
 
   line-height: 65px !important;
 }
 
-#titleHomePage{
+#titleHomePage {
   color: white;
   font-size: 3rem;
 }
-#subTitleHomePage{
+
+#subTitleHomePage {
   color: white;
   margin-right: 0.8rem;
   font-size: 4rem;
   font-weight: bold;
 }
 
-#nameHomePage{
+#nameHomePage {
   color: #A020F0;
   font-size: 4rem;
   font-weight: bold;
 }
 
-.displayNameHome{
+.displayNameHome {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
-#descriptionHomePage{
+#descriptionHomePage {
   color: white;
   font-weight: 300;
   font-size: 3.5rem;
   margin-right: 1rem;
 }
 
-#functionHomePage{
+#functionHomePage {
   font-size: 3.5rem;
   color: white;
   font-weight: 500;
 }
 
-.contentAnimationHomepage{
+.contentAnimationHomepage {
   margin-top: 20vh;
 }
 
-#buttonLeanMore{
+#buttonLeanMore {
   font-size: 1.5rem;
   font-weight: 500;
   outline: none;
   text-decoration: none;
   padding: 1rem 2rem 1rem 2rem;
   color: #A020F0;
-  border: 1px solid #A020F0 ;
+  border: 1px solid #A020F0;
   margin-left: 60%;
   transition: 0.5s;
 }
 
-#buttonLeanMore:hover{
+#buttonLeanMore:hover {
   transition: 1s;
   background-color: #A020F0;
-  border: none ;
+  border: none;
   color: white;
 }
+
+
+#contentSwitchTheme {
+  display: flex;
+  justify-content: center;
+}
+
+.btnSwitch {
+  transform: rotateY(180deg);
+  border-radius: 20px;
+  width: 130px;
+  background-color: #f5f5f500;
+  border: none;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animationPointer {
+  pointer-events: none;
+}
+
+
+
+.contentInformations {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.animationPointer {
+  pointer-events: none;
+}
+
+
+.btnSwitch {
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  border: none;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 
 /* Efeitos Fade IN */
 
 @-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; } 
-  }
-  @-moz-keyframes fadeIn {
-  0% { opacity: 0;}
-  100% { opacity: 1; }
-  }
-  @-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
-  @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
   }
 
-  #fadeIn {
-    -webkit-animation: fadeIn 2s ease-in-out;
-    -moz-animation: fadeIn 2s ease-in-out;
-    -o-animation: fadeIn 2s ease-in-out;
-    animation: fadeIn 2s ease-in-out;
-    }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#fadeIn {
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
+}
